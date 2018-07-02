@@ -1,0 +1,6 @@
+framework module MapView {
+  umbrella header "MapView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - MapView (0.1.0):
+    - GoogleMaps
+
+DEPENDENCIES:
+  - MapView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  MapView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  MapView: 84413d23bdd0bdd747c787ec131f2c440a51bffc
+
+PODFILE CHECKSUM: 2887c66f5d59483b6af568f0ed100cbb5d29fcbd
+
+COCOAPODS: 1.5.2
