@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02920A74BE697C9010956F8609352C7D /* MapView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8802BE65F68BD2C9A073CE0ECB47E6C3 /* MapView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		097CE9E8D1FD0D556632B39FAFE0C719 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FE10398B0706B163D45214228C8B82 /* Marker.swift */; };
+		02920A74BE697C9010956F8609352C7D /* MapView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7854D5A6EA62A2BF4E8DB324B1AB991 /* MapView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		097CE9E8D1FD0D556632B39FAFE0C719 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CADC4FC1C4B1D57B7CACD524A5F5D /* Marker.swift */; };
 		1283B62C8C08D12DCBAD240F9628FBD2 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88532A576B3164E96E907B93201B4B2B /* GoogleMaps.framework */; };
 		1710AB7E8B581DE478510601355FF535 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE1B7F01906D273F8680DF8EA7A9F8E /* CoreLocation.framework */; };
-		22B4E12DB241FCDF761EB08603719438 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65584E0BFCA9593B9045282319E049 /* UserLocation.swift */; };
+		22B4E12DB241FCDF761EB08603719438 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9AD854062BEC8BF26367E309CD473 /* UserLocation.swift */; };
 		297CB462527316684350BE649F238017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F275887361FCCCE963B126983BF270BD /* Foundation.framework */; };
 		2A59CEF76E4A099EE4C4D33FF938DB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F275887361FCCCE963B126983BF270BD /* Foundation.framework */; };
-		7D12E16BC93A46D42F48A456A01B7BDF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41956ABC15EEC49E2F2025B9B4C96F3 /* MapView.swift */; };
+		7D12E16BC93A46D42F48A456A01B7BDF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB017AFC8C3C3B2EF09600B4412568 /* MapView.swift */; };
 		8A6008E51ED098F99BC0ED341FB542A1 /* Pods-MapView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B88A643899193C0C8EFDB3F4540A253 /* Pods-MapView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EBCA4606EEE25C9C2EE0290875445BB /* MapView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A101442C67F9D741A49087A4D36A7ABE /* MapView-dummy.m */; };
+		8EBCA4606EEE25C9C2EE0290875445BB /* MapView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD28D3D557EA1733337E33C06EB1B93 /* MapView-dummy.m */; };
 		B02E1E8195DDA57C791A7D8BE1BF442C /* Pods-MapView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52AF997603815E22C00C8CBB08F2D3 /* Pods-MapView_Example-dummy.m */; };
 		D918522C15A3464CB7E704F95E6F5BAE /* Pods-MapView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB9D9FEE378D6FF2228CB0BBB12F9F4 /* Pods-MapView_Tests-dummy.m */; };
-		E1F584E5DA7156C0705C9E2E8C7A11CA /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D14E3835FD493901E719FAFBFA9F3 /* Polyline.swift */; };
+		E1F584E5DA7156C0705C9E2E8C7A11CA /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333C6078E083EEDC7F75A734AFBF5097 /* Polyline.swift */; };
 		E42C5E3C66F234835F814215C8F0DA46 /* Pods-MapView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 669BEE5456325BF9B3F79031BD13BED8 /* Pods-MapView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF6A08DAF9142FDF45B95ACD1F8A0554 /* GoogleDirectionsReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76F532F2F86D93E35F8B75217E771D /* GoogleDirectionsReponse.swift */; };
+		EF6A08DAF9142FDF45B95ACD1F8A0554 /* GoogleDirectionsReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF5DD8E6DFA7465764EC4552894BE6 /* GoogleDirectionsReponse.swift */; };
 		F930593CA28312E499EF12233022FFB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F275887361FCCCE963B126983BF270BD /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,48 +44,47 @@
 
 /* Begin PBXFileReference section */
 		122C1ECC320B02841FF3A7371FD45DBA /* Pods-MapView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1449DA6C8C149E1911C3D893B72B77DD /* MapView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MapView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		184234C05D168221D3296540CDC86FEA /* Pods-MapView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		189F68787FF088B64A837B0078C0274B /* Pods-MapView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1D7E94664B285231BF695D6FBAD8C255 /* MapView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MapView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1AD28D3D557EA1733337E33C06EB1B93 /* MapView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapView-dummy.m"; sourceTree = "<group>"; };
+		239BAF91EA5382B4825D0D281E6FCDC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		23BF37A5EF9AA083895D457E5384BB75 /* MapView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapView.modulemap; sourceTree = "<group>"; };
 		240EF360AC332AFC4B798C253DCB1946 /* MapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapView.framework; path = MapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B88A643899193C0C8EFDB3F4540A253 /* Pods-MapView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2BEB017AFC8C3C3B2EF09600B4412568 /* MapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = MapView/Classes/MapView.swift; sourceTree = "<group>"; };
+		3284A49D3D573F027D2161CF92F3CA26 /* MapView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapView.xcconfig; sourceTree = "<group>"; };
+		333C6078E083EEDC7F75A734AFBF5097 /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = MapView/Classes/Polyline.swift; sourceTree = "<group>"; };
 		36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		3C1B46EF2D126280E793BCAEAEE5559D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42957FF46786028DBFA2A048A819B708 /* Pods-MapView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		47F45E7BDF5FA21ACA943DC60DDE2547 /* MapView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapView-prefix.pch"; sourceTree = "<group>"; };
 		4A52AF997603815E22C00C8CBB08F2D3 /* Pods-MapView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapView_Example-dummy.m"; sourceTree = "<group>"; };
 		604E477CC1FBCD9BEA9EB9365E809F64 /* Pods-MapView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		669BEE5456325BF9B3F79031BD13BED8 /* Pods-MapView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapView_Example-umbrella.h"; sourceTree = "<group>"; };
-		7768FCDEF031AC7A631AC37689019C9E /* MapView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapView.modulemap; sourceTree = "<group>"; };
-		7E113A8FB8DE74805A79D0D341E54084 /* MapView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapView.xcconfig; sourceTree = "<group>"; };
-		7ECAD657CAD49531979894A58C2CB4F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		67BF5DD8E6DFA7465764EC4552894BE6 /* GoogleDirectionsReponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleDirectionsReponse.swift; path = MapView/Classes/GoogleDirectionsReponse.swift; sourceTree = "<group>"; };
 		7EE1B7F01906D273F8680DF8EA7A9F8E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		8802BE65F68BD2C9A073CE0ECB47E6C3 /* MapView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapView-umbrella.h"; sourceTree = "<group>"; };
 		88532A576B3164E96E907B93201B4B2B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GoogleMaps.framework; sourceTree = DEVELOPER_DIR; };
 		8D4450F22A3D1F3C331D883D97760EBB /* Pods-MapView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DE9AD854062BEC8BF26367E309CD473 /* UserLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserLocation.swift; path = MapView/Classes/UserLocation.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		984CADC4FC1C4B1D57B7CACD524A5F5D /* Marker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marker.swift; path = MapView/Classes/Marker.swift; sourceTree = "<group>"; };
 		98639C64D297426BFBF92778B21C34C1 /* Pods-MapView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		991313F74F8EDCEF15BE07995EF6C213 /* Pods_MapView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MapView_Tests.framework; path = "Pods-MapView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEFB881E17B9169262559544E7BEF68 /* Pods-MapView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapView_Example.modulemap"; sourceTree = "<group>"; };
-		A101442C67F9D741A49087A4D36A7ABE /* MapView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapView-dummy.m"; sourceTree = "<group>"; };
-		AAC5D92F009F6CA9FA5CF7ABD9F2D4C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AF0B39826F307C2C7680274E3CE8E4E5 /* Pods-MapView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapView_Tests-resources.sh"; sourceTree = "<group>"; };
 		B2BD7C29FB33A52759F80B183871B1DD /* Pods-MapView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B611E6537B14F1F930FB239CC6F7E26F /* Pods_MapView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MapView_Example.framework; path = "Pods-MapView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F9B919E9E10BFC82B7F4EBB156F197 /* Pods-MapView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B6FE10398B0706B163D45214228C8B82 /* Marker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marker.swift; path = MapView/Classes/Marker.swift; sourceTree = "<group>"; };
 		BE887D0024608594C3B440F4DF167E08 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		C7854D5A6EA62A2BF4E8DB324B1AB991 /* MapView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapView-umbrella.h"; sourceTree = "<group>"; };
 		CBB9D9FEE378D6FF2228CB0BBB12F9F4 /* Pods-MapView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapView_Tests-dummy.m"; sourceTree = "<group>"; };
 		CE346F94E6F88047C76954AB1348270D /* Pods-MapView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CEC73A6C51A59114D7EC1E1D4E9BE983 /* Pods-MapView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapView_Tests.modulemap"; sourceTree = "<group>"; };
-		CF844998381F2718344FA219439FD840 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF65584E0BFCA9593B9045282319E049 /* UserLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserLocation.swift; path = MapView/Classes/UserLocation.swift; sourceTree = "<group>"; };
 		E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		E189B92F86B2F9029B14085B3D2E682F /* Pods-MapView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapView_Example-resources.sh"; sourceTree = "<group>"; };
-		EE76F532F2F86D93E35F8B75217E771D /* GoogleDirectionsReponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleDirectionsReponse.swift; path = MapView/Classes/GoogleDirectionsReponse.swift; sourceTree = "<group>"; };
-		F15D14E3835FD493901E719FAFBFA9F3 /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = MapView/Classes/Polyline.swift; sourceTree = "<group>"; };
+		EDAD46284CA80F984DED30F7D638B45C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F275887361FCCCE963B126983BF270BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F41956ABC15EEC49E2F2025B9B4C96F3 /* MapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = MapView/Classes/MapView.swift; sourceTree = "<group>"; };
-		F5C7D75A16C9C07D3C0790FE4256BD2F /* MapView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapView-prefix.pch"; sourceTree = "<group>"; };
 		F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		FD76F8B726BB5C7B46799825B51E7B69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,21 +135,6 @@
 			name = Base;
 			sourceTree = "<group>";
 		};
-		2225822ADF18F78E4FF324AE3496C7E7 /* MapView */ = {
-			isa = PBXGroup;
-			children = (
-				EE76F532F2F86D93E35F8B75217E771D /* GoogleDirectionsReponse.swift */,
-				F41956ABC15EEC49E2F2025B9B4C96F3 /* MapView.swift */,
-				B6FE10398B0706B163D45214228C8B82 /* Marker.swift */,
-				F15D14E3835FD493901E719FAFBFA9F3 /* Polyline.swift */,
-				DF65584E0BFCA9593B9045282319E049 /* UserLocation.swift */,
-				4E88979D19CB44E286E3CD39998F37A0 /* Pod */,
-				33BFD036F1EC6360E82B30B136581820 /* Support Files */,
-			);
-			name = MapView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,20 +145,6 @@
 			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
-		33BFD036F1EC6360E82B30B136581820 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CF844998381F2718344FA219439FD840 /* Info.plist */,
-				7768FCDEF031AC7A631AC37689019C9E /* MapView.modulemap */,
-				7E113A8FB8DE74805A79D0D341E54084 /* MapView.xcconfig */,
-				A101442C67F9D741A49087A4D36A7ABE /* MapView-dummy.m */,
-				F5C7D75A16C9C07D3C0790FE4256BD2F /* MapView-prefix.pch */,
-				8802BE65F68BD2C9A073CE0ECB47E6C3 /* MapView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MapView";
-			sourceTree = "<group>";
-		};
 		3598CBA77D53C0AA5CCFD958CD2E8857 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,22 +153,25 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		3C3DFA1EA8609EAAEE8C0C1A5E6942C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23BF37A5EF9AA083895D457E5384BB75 /* MapView.modulemap */,
+				3284A49D3D573F027D2161CF92F3CA26 /* MapView.xcconfig */,
+				1AD28D3D557EA1733337E33C06EB1B93 /* MapView-dummy.m */,
+				47F45E7BDF5FA21ACA943DC60DDE2547 /* MapView-prefix.pch */,
+				C7854D5A6EA62A2BF4E8DB324B1AB991 /* MapView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MapView";
+			sourceTree = "<group>";
+		};
 		4AF12938A75105429475BFBA1073CC9B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2225822ADF18F78E4FF324AE3496C7E7 /* MapView */,
+				B95587C8AB244AAAB8D6D2769B5CA2E2 /* MapView */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4E88979D19CB44E286E3CD39998F37A0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AAC5D92F009F6CA9FA5CF7ABD9F2D4C5 /* LICENSE */,
-				1D7E94664B285231BF695D6FBAD8C255 /* MapView.podspec */,
-				7ECAD657CAD49531979894A58C2CB4F6 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		501562BF592517FC6A65661FF1B35C78 /* Frameworks */ = {
@@ -284,6 +257,16 @@
 			path = "Target Support Files/Pods-MapView_Tests";
 			sourceTree = "<group>";
 		};
+		9BE5781BF5F4416B6B879B0C55D0A812 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				239BAF91EA5382B4825D0D281E6FCDC1 /* LICENSE */,
+				1449DA6C8C149E1911C3D893B72B77DD /* MapView.podspec */,
+				EDAD46284CA80F984DED30F7D638B45C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		A5DA4C2057642E51BC4B9B98F6685233 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +284,21 @@
 				991313F74F8EDCEF15BE07995EF6C213 /* Pods_MapView_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B95587C8AB244AAAB8D6D2769B5CA2E2 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				67BF5DD8E6DFA7465764EC4552894BE6 /* GoogleDirectionsReponse.swift */,
+				2BEB017AFC8C3C3B2EF09600B4412568 /* MapView.swift */,
+				984CADC4FC1C4B1D57B7CACD524A5F5D /* Marker.swift */,
+				333C6078E083EEDC7F75A734AFBF5097 /* Polyline.swift */,
+				8DE9AD854062BEC8BF26367E309CD473 /* UserLocation.swift */,
+				9BE5781BF5F4416B6B879B0C55D0A812 /* Pod */,
+				3C3DFA1EA8609EAAEE8C0C1A5E6942C1 /* Support Files */,
+			);
+			name = MapView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */ = {
@@ -471,38 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1859BA0FB7D54CF632AD34141EDC0797 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E113A8FB8DE74805A79D0D341E54084 /* MapView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MapView/MapView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MapView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MapView/MapView.modulemap";
-				PRODUCT_MODULE_NAME = MapView;
-				PRODUCT_NAME = MapView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2CF5739D4362269EFB0C797F5B61AF18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42957FF46786028DBFA2A048A819B708 /* Pods-MapView_Tests.release.xcconfig */;
@@ -564,6 +530,71 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57A81A56ACE328CEEB29A0203DC85F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3284A49D3D573F027D2161CF92F3CA26 /* MapView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapView/MapView-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MapView/MapView.modulemap";
+				PRODUCT_MODULE_NAME = MapView;
+				PRODUCT_NAME = MapView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A19BAF55EDD4C41440DBBBBD10EDD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3284A49D3D573F027D2161CF92F3CA26 /* MapView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapView/MapView-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MapView/MapView.modulemap";
+				PRODUCT_MODULE_NAME = MapView;
+				PRODUCT_NAME = MapView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -667,39 +698,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		9F8D025C87351408B2B9405B2C9374DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E113A8FB8DE74805A79D0D341E54084 /* MapView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MapView/MapView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MapView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MapView/MapView.modulemap";
-				PRODUCT_MODULE_NAME = MapView;
-				PRODUCT_NAME = MapView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -827,8 +825,8 @@
 		83E98BFBB2A6ED5C2D4812360A5A8624 /* Build configuration list for PBXNativeTarget "MapView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1859BA0FB7D54CF632AD34141EDC0797 /* Debug */,
-				9F8D025C87351408B2B9405B2C9374DC /* Release */,
+				6A19BAF55EDD4C41440DBBBBD10EDD00 /* Debug */,
+				57A81A56ACE328CEEB29A0203DC85F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

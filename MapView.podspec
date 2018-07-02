@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/AndrewBoryk/MapView.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/trepislife'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'MapView/Classes/**/*'
   
@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.swift_version = '4.0'
+  s.static_framework = true
   s.frameworks = 'CoreLocation', 'GoogleMaps'
-#  s.dependency 'GoogleMaps'
+  s.dependency 'GoogleMaps'
 end
