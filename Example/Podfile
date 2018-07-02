@@ -1,6 +1,8 @@
 use_frameworks!
 
 target 'MapView_Example' do
+    
+  pod 'GoogleMaps'
   pod 'MapView', :path => '../'
 
   target 'MapView_Tests' do

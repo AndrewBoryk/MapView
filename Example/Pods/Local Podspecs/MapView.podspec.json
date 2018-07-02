@@ -1,27 +1,27 @@
 {
   "name": "MapView",
   "version": "0.1.0",
-  "summary": "A short description of MapView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A sleek wrapper for GoogleMaps and CoreLocation.",
+  "description": "This pod was build as a wrapper for GoogleMaps and CoreLocation specifically to drawing markers, loading and drawing polylines, and displaying the user's current location smoother and quicker.",
   "homepage": "https://github.com/AndrewBoryk/MapView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "AndrewBoryk": "aboryk@its.jnj.com"
+    "AndrewBoryk": "andrewcboryk@gmail.com"
   },
   "source": {
     "git": "https://github.com/AndrewBoryk/MapView.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/trepislife",
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "MapView/Classes/**/*",
-  "dependencies": {
-    "GoogleMaps": [
-
-    ]
-  }
+  "frameworks": [
+    "CoreLocation",
+    "GoogleMaps"
+  ]
 }
