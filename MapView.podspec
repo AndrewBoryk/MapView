@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MapView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MapView.'
+  s.summary          = 'A sleek wrapper for GoogleMaps and CoreLocation.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This pod was build as a wrapper for GoogleMaps and CoreLocation specifically to drawing markers, loading and drawing polylines, and displaying the user's current location smoother and quicker.
                        DESC
 
   s.homepage         = 'https://github.com/AndrewBoryk/MapView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'AndrewBoryk' => 'aboryk@its.jnj.com' }
+  s.author           = { 'AndrewBoryk' => 'andrewcboryk@gmail.com' }
   s.source           = { :git => 'https://github.com/AndrewBoryk/MapView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/trepislife'
 
   s.ios.deployment_target = '8.0'
 
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'CoreLocation'
   s.dependency 'GoogleMaps'
 end
