@@ -8,25 +8,25 @@
 
 import GoogleMaps
 
-class Polyline: GMSPolyline {
+public class Polyline: GMSPolyline {
     
-    enum Transportation: String {
+    public enum Transportation: String {
         
         case driving
         case transit
     }
     
-    var origin: CLLocationCoordinate2D?
-    var destination: CLLocationCoordinate2D?
-    var transportation: Transportation = .driving
+    public var origin: CLLocationCoordinate2D?
+    public var destination: CLLocationCoordinate2D?
+    public var transportation: Transportation = .driving
     
-    init(origin: CLLocationCoordinate2D, destination: CLLocationCoordinate2D, transportation: Transportation = .driving) {
+    public init(origin: CLLocationCoordinate2D, destination: CLLocationCoordinate2D, transportation: Transportation = .driving) {
         self.origin = origin
         self.destination = destination
         self.transportation = transportation
     }
     
-    func fetchPath(completion: @escaping (GMSPath?) -> Void) {
+    public func fetchPath(completion: @escaping (GMSPath?) -> Void) {
         loadPathData { data in
             DispatchQueue.main.async {
                 if let data = data,

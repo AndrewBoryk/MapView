@@ -8,18 +8,18 @@
 
 import GoogleMaps
 
-protocol Identifiable {
+public protocol Identifiable {
     
     /// An value that can be used to identify the marker
     var id: String? { get set }
 }
 
-class Marker: GMSMarker, Identifiable {
+public class Marker: GMSMarker, Identifiable {
     
-    var id: String?
+    public var id: String?
     
     // MARK: - Initializers
-    convenience init(position: CLLocationCoordinate2D, map: GMSMapView, indicator: UIImage? = nil) {
+    public convenience init(position: CLLocationCoordinate2D, map: GMSMapView, indicator: UIImage? = nil) {
         self.init()
         self.position = position
         self.map = map
@@ -29,13 +29,13 @@ class Marker: GMSMarker, Identifiable {
         }
     }
     
-    convenience init(latitude: Double, longitude: Double, map: GMSMapView, indicator: UIImage? = nil) {
+    public convenience init(latitude: Double, longitude: Double, map: GMSMapView, indicator: UIImage? = nil) {
         let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
         self.init(position: coordinate, map: map, indicator: indicator)
     }
     
     // MARK: - Shared
-    func removeFromMap() {
+    public func removeFromMap() {
         map = nil
     }
 }

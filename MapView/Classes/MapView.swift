@@ -8,27 +8,28 @@
 
 import GoogleMaps
 
-class MapView: GMSMapView {
+public class MapView: GMSMapView {
     
-    private(set) var markers = [Marker]()
-    private(set) var polylines = [GMSPolyline]()
-    fileprivate(set) var userLocationMarker: Marker?
+    public private(set) var markers = [Marker]()
+    public private(set) var polylines = [GMSPolyline]()
+    public fileprivate(set) var userLocationMarker: Marker?
+    
     private lazy var locationService = UserLocation(delegate: self)
     
-    var isUserLocationVisible: Bool = false {
+    public var isUserLocationVisible: Bool = false {
         didSet {
             isUserLocationVisible ? showUserLocationMarker() : hideUserLocation()
         }
     }
     
-    var userLocationIcon: UIImage? {
+    public var userLocationIcon: UIImage? {
         didSet {
             userLocationMarker?.icon = userLocationIcon
         }
     }
     
     // MARK: - Style
-    func styleMapUsing(jsonString: String, completion: @escaping (Error?) -> Void) {
+    public func styleMapUsing(jsonString: String, completion: @escaping (Error?) -> Void) {
         do {
             mapStyle = try GMSMapStyle(jsonString: jsonString)
             completion(nil)
@@ -37,7 +38,7 @@ class MapView: GMSMapView {
         }
     }
     
-    func styleMapUsing(fileAt url: URL, completion: @escaping (Error?) -> Void) {
+    public func styleMapUsing(fileAt url: URL, completion: @escaping (Error?) -> Void) {
         do {
             mapStyle = try GMSMapStyle(contentsOfFileURL: url)
             completion(nil)
@@ -47,7 +48,7 @@ class MapView: GMSMapView {
     }
     
     // MARK: - Marker
-    func addMarker(position: CLLocationCoordinate2D, icon: UIImage? = nil, animated: Bool = false) -> Marker {
+    public func addMarker(position: CLLocationCoordinate2D, icon: UIImage? = nil, animated: Bool = false) -> Marker {
         let marker = Marker(position: position, map: self, indicator: icon)
         marker.appearAnimation = animated ? .pop : .none
         markers.append(marker)
@@ -55,30 +56,30 @@ class MapView: GMSMapView {
     }
     
     // MARK: - Polyline
-    func fetchAndDraw(polyline: Polyline) {
+    public func fetchAndDraw(polyline: Polyline) {
         polyline.fetchPath { path in
             polyline.path = path
             self.addPolyline(polyline)
         }
     }
     
-    func drawPolyline(using path: GMSPath?) {
+    public func drawPolyline(using path: GMSPath?) {
         DispatchQueue.main.async {
             self.addPolyline(GMSPolyline(path: path))
         }
     }
     
-    func addPolyline(_ polyline: GMSPolyline) {
+    public func addPolyline(_ polyline: GMSPolyline) {
         polyline.map = self
         polylines.append(polyline)
     }
     
     // MARK: - Camera
-    func updateCamera(to marker: Marker, zoom: Float = 15.0, animated: Bool = false) {
+    public func updateCamera(to marker: Marker, zoom: Float = 15.0, animated: Bool = false) {
         updateCamera(position: marker.position, zoom: zoom, animated: animated)
     }
     
-    func updateCamera(position: CLLocationCoordinate2D, zoom: Float = 15.0, animated: Bool = false) {
+    public func updateCamera(position: CLLocationCoordinate2D, zoom: Float = 15.0, animated: Bool = false) {
         if animated {
             let update = GMSCameraUpdate.setTarget(position, zoom: zoom)
             animate(with: update)
@@ -89,12 +90,12 @@ class MapView: GMSMapView {
         }
     }
     
-    func updateCameraToShowAllMarkers(padding: CGFloat, animated: Bool = false) {
+    public func updateCameraToShowAllMarkers(padding: CGFloat, animated: Bool = false) {
         let insets = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
         updateCameraToShowAllMarkers(insets: insets, animated: animated)
     }
     
-    func updateCameraToShowAllMarkers(insets: UIEdgeInsets = UIEdgeInsets(top: 40, left: 40, bottom: 40, right: 40), animated: Bool = false) {
+    public func updateCameraToShowAllMarkers(insets: UIEdgeInsets = UIEdgeInsets(top: 40, left: 40, bottom: 40, right: 40), animated: Bool = false) {
         var bounds = GMSCoordinateBounds()
         markers.forEach { bounds = bounds.includingCoordinate($0.position) }
         
@@ -107,18 +108,18 @@ class MapView: GMSMapView {
     }
     
     // MARK: - User Location
-    func showUserLocationMarker() {
+    public func showUserLocationMarker() {
         locationService.startUpdatingLocation()
     }
     
-    func hideUserLocation() {
+    public func hideUserLocation() {
         locationService.stopUpdatingLocation()
         userLocationMarker?.removeFromMap()
         userLocationMarker = nil
     }
     
     // MARK: - Clear
-    func clearMarkers() {
+    public func clearMarkers() {
         markers.forEach {
             guard $0.id != userLocationMarker?.id, !isUserLocationVisible else {
                 return
@@ -130,12 +131,12 @@ class MapView: GMSMapView {
         markers.removeAll()
     }
     
-    func clearPolylines() {
+    public func clearPolylines() {
         polylines.forEach { $0.map = nil }
         polylines.removeAll()
     }
     
-    func clearMap() {
+    public func clearMap() {
         clearMarkers()
         clearPolylines()
     }
