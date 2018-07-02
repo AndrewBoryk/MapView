@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.swift_version = '4.0'
   s.frameworks = 'CoreLocation', 'GoogleMaps'
 #  s.dependency 'GoogleMaps'
 end
