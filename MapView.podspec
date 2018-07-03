@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MapView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A sleek wrapper for GoogleMaps and CoreLocation.'
 
 # This description is used to generate tags and improve search results.
