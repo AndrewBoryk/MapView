@@ -14,7 +14,7 @@ public protocol Identifiable {
     var id: String? { get set }
 }
 
-public class Marker: GMSMarker, Identifiable {
+open class Marker: GMSMarker, Identifiable {
     
     public var id: String?
     

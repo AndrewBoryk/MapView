@@ -8,7 +8,7 @@
 
 import GoogleMaps
 
-public class Polyline: GMSPolyline {
+open class Polyline: GMSPolyline {
     
     public enum Transportation: String {
         

@@ -44,13 +44,13 @@
 
 /* Begin PBXFileReference section */
 		122C1ECC320B02841FF3A7371FD45DBA /* Pods-MapView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1449DA6C8C149E1911C3D893B72B77DD /* MapView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MapView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1449DA6C8C149E1911C3D893B72B77DD /* MapView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MapView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		184234C05D168221D3296540CDC86FEA /* Pods-MapView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		189F68787FF088B64A837B0078C0274B /* Pods-MapView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1AD28D3D557EA1733337E33C06EB1B93 /* MapView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapView-dummy.m"; sourceTree = "<group>"; };
-		239BAF91EA5382B4825D0D281E6FCDC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		239BAF91EA5382B4825D0D281E6FCDC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		23BF37A5EF9AA083895D457E5384BB75 /* MapView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapView.modulemap; sourceTree = "<group>"; };
-		240EF360AC332AFC4B798C253DCB1946 /* MapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapView.framework; path = MapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		240EF360AC332AFC4B798C253DCB1946 /* MapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B88A643899193C0C8EFDB3F4540A253 /* Pods-MapView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2BEB017AFC8C3C3B2EF09600B4412568 /* MapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = MapView/Classes/MapView.swift; sourceTree = "<group>"; };
 		3284A49D3D573F027D2161CF92F3CA26 /* MapView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapView.xcconfig; sourceTree = "<group>"; };
@@ -67,14 +67,14 @@
 		88532A576B3164E96E907B93201B4B2B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GoogleMaps.framework; sourceTree = DEVELOPER_DIR; };
 		8D4450F22A3D1F3C331D883D97760EBB /* Pods-MapView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DE9AD854062BEC8BF26367E309CD473 /* UserLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserLocation.swift; path = MapView/Classes/UserLocation.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		984CADC4FC1C4B1D57B7CACD524A5F5D /* Marker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marker.swift; path = MapView/Classes/Marker.swift; sourceTree = "<group>"; };
 		98639C64D297426BFBF92778B21C34C1 /* Pods-MapView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		991313F74F8EDCEF15BE07995EF6C213 /* Pods_MapView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MapView_Tests.framework; path = "Pods-MapView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		991313F74F8EDCEF15BE07995EF6C213 /* Pods_MapView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEFB881E17B9169262559544E7BEF68 /* Pods-MapView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapView_Example.modulemap"; sourceTree = "<group>"; };
 		AF0B39826F307C2C7680274E3CE8E4E5 /* Pods-MapView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapView_Tests-resources.sh"; sourceTree = "<group>"; };
 		B2BD7C29FB33A52759F80B183871B1DD /* Pods-MapView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B611E6537B14F1F930FB239CC6F7E26F /* Pods_MapView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MapView_Example.framework; path = "Pods-MapView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B611E6537B14F1F930FB239CC6F7E26F /* Pods_MapView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F9B919E9E10BFC82B7F4EBB156F197 /* Pods-MapView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BE887D0024608594C3B440F4DF167E08 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		C7854D5A6EA62A2BF4E8DB324B1AB991 /* MapView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapView-umbrella.h"; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		CEC73A6C51A59114D7EC1E1D4E9BE983 /* Pods-MapView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapView_Tests.modulemap"; sourceTree = "<group>"; };
 		E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		E189B92F86B2F9029B14085B3D2E682F /* Pods-MapView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapView_Example-resources.sh"; sourceTree = "<group>"; };
-		EDAD46284CA80F984DED30F7D638B45C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EDAD46284CA80F984DED30F7D638B45C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F275887361FCCCE963B126983BF270BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		FD76F8B726BB5C7B46799825B51E7B69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -141,7 +141,6 @@
 				1418B056D31B27EE2CEBA552B5ADFE56 /* Base */,
 				6BC99F081C91F80679CFA5DDC6213D57 /* Maps */,
 			);
-			name = GoogleMaps;
 			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
@@ -289,10 +288,10 @@
 		B95587C8AB244AAAB8D6D2769B5CA2E2 /* MapView */ = {
 			isa = PBXGroup;
 			children = (
-				67BF5DD8E6DFA7465764EC4552894BE6 /* GoogleDirectionsReponse.swift */,
 				2BEB017AFC8C3C3B2EF09600B4412568 /* MapView.swift */,
 				984CADC4FC1C4B1D57B7CACD524A5F5D /* Marker.swift */,
 				333C6078E083EEDC7F75A734AFBF5097 /* Polyline.swift */,
+				67BF5DD8E6DFA7465764EC4552894BE6 /* GoogleDirectionsReponse.swift */,
 				8DE9AD854062BEC8BF26367E309CD473 /* UserLocation.swift */,
 				9BE5781BF5F4416B6B879B0C55D0A812 /* Pod */,
 				3C3DFA1EA8609EAAEE8C0C1A5E6942C1 /* Support Files */,

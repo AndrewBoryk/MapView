@@ -8,7 +8,7 @@
 
 import GoogleMaps
 
-public class MapView: GMSMapView {
+open class MapView: GMSMapView {
     
     public private(set) var markers = [Marker]()
     public private(set) var polylines = [GMSPolyline]()
@@ -16,7 +16,7 @@ public class MapView: GMSMapView {
     
     private lazy var locationService = UserLocation(delegate: self)
     
-    public var isUserLocationVisible: Bool = false {
+    open var isUserLocationVisible: Bool = false {
         didSet {
             isUserLocationVisible ? showUserLocationMarker() : hideUserLocation()
         }
@@ -29,7 +29,7 @@ public class MapView: GMSMapView {
     }
     
     // MARK: - Style
-    public func styleMapUsing(jsonString: String, completion: @escaping (Error?) -> Void) {
+    open func styleMapUsing(jsonString: String, completion: @escaping (Error?) -> Void) {
         do {
             mapStyle = try GMSMapStyle(jsonString: jsonString)
             completion(nil)
@@ -38,7 +38,7 @@ public class MapView: GMSMapView {
         }
     }
     
-    public func styleMapUsing(fileAt url: URL, completion: @escaping (Error?) -> Void) {
+    open func styleMapUsing(fileAt url: URL, completion: @escaping (Error?) -> Void) {
         do {
             mapStyle = try GMSMapStyle(contentsOfFileURL: url)
             completion(nil)
@@ -48,7 +48,7 @@ public class MapView: GMSMapView {
     }
     
     // MARK: - Marker
-    public func addMarker(position: CLLocationCoordinate2D, icon: UIImage? = nil, animated: Bool = false) -> Marker {
+    open func addMarker(position: CLLocationCoordinate2D, icon: UIImage? = nil, animated: Bool = false) -> Marker {
         let marker = Marker(position: position, map: self, indicator: icon)
         marker.appearAnimation = animated ? .pop : .none
         markers.append(marker)
@@ -108,18 +108,18 @@ public class MapView: GMSMapView {
     }
     
     // MARK: - User Location
-    public func showUserLocationMarker() {
+    open func showUserLocationMarker() {
         locationService.startUpdatingLocation()
     }
     
-    public func hideUserLocation() {
+    open func hideUserLocation() {
         locationService.stopUpdatingLocation()
         userLocationMarker?.removeFromMap()
         userLocationMarker = nil
     }
     
     // MARK: - Clear
-    public func clearMarkers() {
+    open func clearMarkers() {
         markers.forEach {
             guard $0.id != userLocationMarker?.id, !isUserLocationVisible else {
                 return
@@ -131,12 +131,12 @@ public class MapView: GMSMapView {
         markers.removeAll()
     }
     
-    public func clearPolylines() {
+    open func clearPolylines() {
         polylines.forEach { $0.map = nil }
         polylines.removeAll()
     }
     
-    public func clearMap() {
+    open func clearMap() {
         clearMarkers()
         clearPolylines()
     }
