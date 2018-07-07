@@ -1,6 +1,6 @@
 //
 //  MapView.swift
-//  RottenApples
+//  MapView
 //
 //  Created by Andrew Boryk on 6/28/18.
 //  Copyright © 2018 Rocket n Mouse. All rights reserved.
@@ -99,6 +99,44 @@ open class MapView: GMSMapView {
         var bounds = GMSCoordinateBounds()
         markers.forEach { bounds = bounds.includingCoordinate($0.position) }
         
+        updateCamera(to: bounds, insets: insets, animated: animated)
+    }
+    
+    public func updateCamera(to polyline: GMSPolyline, padding: CGFloat, animated: Bool = false) {
+        let insets = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
+        updateCamera(to: polyline, insets: insets, animated: animated)
+    }
+    
+    public func updateCamera(to polyline: GMSPolyline, insets: UIEdgeInsets = UIEdgeInsets(top: 40, left: 40, bottom: 40, right: 40), animated: Bool = false) {
+        updateCameraToShow(polylines: [polyline], insets: insets, animated: animated)
+    }
+    
+    public func updateCameraToShowAllPolylines(padding: CGFloat, animated: Bool = false) {
+        let insets = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
+        updateCameraToShowAllPolylines(insets: insets, animated: animated)
+    }
+    
+    public func updateCameraToShowAllPolylines(insets: UIEdgeInsets = UIEdgeInsets(top: 40, left: 40, bottom: 40, right: 40), animated: Bool = false) {
+        updateCameraToShow(polylines: polylines, insets: insets, animated: animated)
+    }
+    
+    public func updateCameraToShow(polylines: [GMSPolyline], insets: UIEdgeInsets = UIEdgeInsets(top: 40, left: 40, bottom: 40, right: 40), animated: Bool = false) {
+        var bounds = GMSCoordinateBounds()
+        
+        for polyline in polylines {
+            guard let path = polyline.path else {
+                continue
+            }
+            
+            for index in 0..<path.count() {
+                bounds = bounds.includingCoordinate(path.coordinate(at: index))
+            }
+        }
+        
+        updateCamera(to: bounds, insets: insets, animated: animated)
+    }
+    
+    public func updateCamera(to bounds: GMSCoordinateBounds, insets: UIEdgeInsets = UIEdgeInsets(top: 40, left: 40, bottom: 40, right: 40), animated: Bool = false) {
         if animated {
             let update = GMSCameraUpdate.fit(bounds, with: insets)
             animate(with: update)

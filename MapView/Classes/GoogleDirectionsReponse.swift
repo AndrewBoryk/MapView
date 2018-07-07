@@ -1,6 +1,6 @@
 //
 //  GoogleDirectionsReponse.swift
-//  RottenApples
+//  MapView
 //
 //  Created by Andrew Boryk on 6/29/18.
 //  Copyright © 2018 Rocket n Mouse. All rights reserved.

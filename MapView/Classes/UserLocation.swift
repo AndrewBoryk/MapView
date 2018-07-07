@@ -1,6 +1,6 @@
 //
 //  UserLocation.swift
-//  RottenApples
+//  MapView
 //
 //  Created by Andrew Boryk on 7/2/18.
 //  Copyright © 2018 Rocket n Mouse. All rights reserved.
