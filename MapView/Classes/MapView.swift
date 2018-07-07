@@ -158,12 +158,15 @@ open class MapView: GMSMapView {
     
     // MARK: - Clear
     open func clearMarkers() {
-        markers.forEach {
-            guard $0.id != userLocationMarker?.id, !isUserLocationVisible else {
-                return
+        for marker in markers {
+            if let id = marker.id, let userLocationId = userLocationMarker?.id {
+                guard id != userLocationId,
+                    !isUserLocationVisible else {
+                        continue
+                }
             }
             
-            $0.removeFromMap()
+            marker.removeFromMap()
         }
         
         markers.removeAll()
